@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/network_protocol_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Network protocol" />
+
+    <TextView
+        android:id="@+id/src_network_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/network_protocol_text"
+        android:text="SRC Network" />
+
+    <TextView
+        android:id="@+id/dst_network_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/src_network_text"
+        android:text="DST Network" />
+
+    <TextView
+        android:id="@+id/transport_protocol_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dst_network_text"
+        android:layout_marginTop="17dp"
+        android:text="Transport Protocol" />
+
+    <TextView
+        android:id="@+id/src_transport_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/transport_protocol_text"
+        android:text="SRC Transport" />
+
+    <TextView
+        android:id="@+id/dst_transport_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/src_transport_text"
+        android:text="DST Transport" />
+
+    <TextView
+        android:id="@+id/application_protocol_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dst_transport_text"
+        android:layout_marginTop="13dp"
+        android:text="Application Protocol" />
+
+    <TextView
+        android:id="@+id/packet_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/application_protocol_text"
+        android:layout_marginTop="14dp"
+        android:text="Packet Number" />
+</RelativeLayout>
